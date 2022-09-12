@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Component imports
@@ -83,7 +84,7 @@ function App() {
             path="/dashboard"
             element={
               <ProtectedRoute>
-                <Header />
+                <Header refreshCart={undefined} setRefreshCart={undefined} />
                 <Dashboard />
               </ProtectedRoute>
             }

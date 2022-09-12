@@ -6,9 +6,9 @@ import "./UserOrders.css"
 
 const UserOrders = () => {
   const [orders, setOrders] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [products, setProducts] = useState([]);
   const navigate = useNavigate();
-
   // Get current user's orders
   useEffect(() => {
     axios

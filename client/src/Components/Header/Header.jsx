@@ -13,6 +13,7 @@ const Header = ({ refreshCart, setRefreshCart }) => {
   const [userId, setUserId] = useState();
   const [cart, setCart] = useState();
   const navigate = useNavigate("");
+  // eslint-disable-next-line no-unused-vars
   const [cookies, setCookie, removeCookie] = useCookies(["userToken"]);
 
   const updateCart = () => {

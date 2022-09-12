@@ -8,6 +8,7 @@ const Profile = () => {
     const [userErrors, setUserErrors] = useState({});
     const [userShippingErrors, setUserShippingErrors] = useState({});
     const [userBillingErrors, setUserBillingErrors] = useState({});
+    // eslint-disable-next-line no-unused-vars
     const [orders, setOrders] = useState([]);
     const [user, setUser] = useState({
         firstName: '',

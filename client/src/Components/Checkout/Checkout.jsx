@@ -13,6 +13,7 @@ const Checkout = () => {
   const [cartItems, setCartItems] = useState({});
   const [totalItems, setTotalItems] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
+  // eslint-disable-next-line no-unused-vars
   const [user, setUser] = useState([]);
 
   // Get logged in user
@@ -53,6 +54,7 @@ const Checkout = () => {
   useEffect(() => {
     let totalItems = 0;
     let totalPrice = 0;
+    // eslint-disable-next-line no-unused-vars
     for (const [_id, items] of Object.entries(cartItems)) {
       totalItems += items.length;
       totalPrice += items.reduce(

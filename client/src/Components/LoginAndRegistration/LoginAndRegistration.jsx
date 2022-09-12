@@ -75,7 +75,7 @@ const LoginAndRegistration = () => {
 
   return (
     <div className="container mt-5" style={{ backgroundColor: "grey" }}>
-      <div className="d-flex justify-content-evenly pt-5">
+      <div className="d-flex justify-content-evenly py-5">
         <div
           className="justify-content-evenly card p-2 w-50"
           style={{ backgroundColor: "#eee" }}
